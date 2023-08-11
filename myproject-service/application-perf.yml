@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: myproject-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+myproject-service:
+  greeting: "Hello"
+  default-value: "Perf!"
