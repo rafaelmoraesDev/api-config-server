@@ -1,0 +1,32 @@
+# Files
+HELP.md
+
+# Directories
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.metadata/
+
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE-Specific (Spring Tool Suite - STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IDE-Specific (IntelliJ IDEA)
+.idea
+*.iws
+*.iml
+*.ipr
+
+# IDE-Specific (Visual Studio Code)
+.vscode/
